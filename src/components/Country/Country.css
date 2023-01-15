@@ -1,0 +1,15 @@
+.country_data {
+    border: 2px solid rgb(251, 212, 177);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_data>img {
+    height: 110px;
+    width: 180px;
+}
