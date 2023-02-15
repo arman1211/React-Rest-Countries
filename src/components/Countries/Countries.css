@@ -5,3 +5,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+
+.search {
+    padding: 20px;
+    width: 200px;
+    margin-right: 20px;
+    border: 4px solid rgb(141, 224, 17);
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+
+}

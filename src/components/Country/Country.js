@@ -3,6 +3,8 @@ import './Country.css'
 
 const Country = (props) => {
     const { name, population, flags } = props.country
+    const searchName = props.search
+    // console.log(searchName)
     return (
         <div className='country_data'>
             <img src={flags.png} alt="" />
